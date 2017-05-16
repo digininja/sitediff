@@ -21,6 +21,7 @@ begin
 	require 'digest'
 	require 'getoptlong'
 	require 'net/http'
+	require 'openssl'
 	require_relative 'string'
 rescue LoadError => e
 	# Catch error and provide feedback on installing gem
